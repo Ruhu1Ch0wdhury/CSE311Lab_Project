@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        .my_text
+            {
+                font-family: Calibri;;
+                
+            }
+            .my_h1
+            {
+                font-family: Calibri;
+                font-style : normal;
+                font-size : 30px;
+                text-align: center; 
+                color: rgb(255, 255, 255);       
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 50%;
+            }
+            form.solid {
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-bottom: 35px;
+            background: rgb(39, 39, 39);            
+        }
+
+    </style>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    
+    <title>Log in to Bengal Attire</title>
+  </head>
+  <body style="background: rgb(5, 2, 2);">
+      <style>
+          input[type="email"]{
+              border-bottom-left-radius: 0px;;
+              border-bottom-right-radius: 0px;;
+              font-family: Calibri;;
+
+          }
+          input[type="password"]{
+              border-bottom-left-radius: 0px;;
+              border-bottom-right-radius: 0px;;
+              font-family: Calibri;; 
+          }
+          label {
+                font-size: 20px;
+                text-align:right;
+                font-family:Calibri;
+                color: rgb(255, 255, 255);
+          }
+          img {
+              text-align: center;
+          }
+          label[id="remember"]{
+              border-bottom-left-radius: 0px;;
+              border-bottom-right-radius: 0px;;
+              font-family: Calibri;
+              font-size: 20px;
+              color: cornflowerblue;
+             }
+      </style>
+        <form style="max-width: 480px; margin: auto;" class="solid mt-5">
+            <div align="center"> 
+                <img class="center" src="img/logo_white.svg" height="200" alt="logo">
+            </div>  
+          <h1 class="my_h1 mb-2">Sign up to <b style="color: yellow;">Bengal Attire</b></h1>
+
+          <label for="fname" class="sr-only" my_h1>First name</label>
+          <input type="text" id="fname" class="form-control  mb-2" placeholder="First name" required autofocus>
+
+          <label for="lname" class="sr-only" my_h1>Last name</label>
+          <input type="text" id="lname" class="form-control  mb-2" placeholder="Last name">
+
+          <label for="emailaddress" class="sr-only" my_h1>Email</label>
+          <input type="email" id="emailaddress" class="form-control mb-2" placeholder="Email address">
+
+          <label for="password" class="sr-only">Password</label>
+          <input type="password" class="form-control" id="password" placeholder="Password">
+
+          <label for="d_address" class="sr-only" my_h1>Address</label>
+          <input type="text" id="d_address" class="form-control  mb-2" placeholder="House no,Post office, City, Sub-district, District">
+
+          <div class="checkbox mt-3 align="center">
+              <label id="remember">
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+          </div>
+          <div class=" mt-3" align="right">
+              <button class="btn btn-lg btn-primary btn-block" type="button">Sign Up</button>
+            </div>
+        <div class="mt-3">
+            <p style="color: white; text-align: center;" >Already has <b style="color: yellow;">Bengal attire</b> account, <a href="login.html"><i><u>sign in</u></i></a>
+            </p>
+        </div>
+        </form>
+     
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
