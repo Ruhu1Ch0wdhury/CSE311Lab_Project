@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1400px;
+    }
+}
+
+.coco{
+    width: 60px;
+    /*border: 1px solid blue;*/
+}
+
+.nav-item{
+    font-weight: bold;
+    color: black;
+}
+
+.nav-item, .nav-link {
+    font-size: 17px;
+    color: black;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+
+}
+
+input[type="text"] {
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+}
